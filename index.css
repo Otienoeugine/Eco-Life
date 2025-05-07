@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0e7d8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #44633f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #tip-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #d9cbb3;
+  }
+  
+  #new-tip-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #dc6b19;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .card button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #dc6b19;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .card h2 {
+    margin: 15px 0 10px;
+    color: #2e4e1d;
+  }
+  
